@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "start": "node output/main.js"
+  },
+  "dependencies": {
+    "elm": "0.19.1-5",
+    "sqlite": "4.1.2",
+    "sqlite3": "5.1.4"
+  },
+  "devDependencies": {
+    "rollup": "3.10.0",
+    "rollup-plugin-elm": "3.0.0"
+  }
+}
